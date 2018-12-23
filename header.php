@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!------------------bootstrap min.css file------------------>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
 
 	<!-------------------jquery cdn-------------------------------->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -26,7 +26,7 @@
 
 	<script src="js/main.js"></script>
 
-	<!------------JavaScript Clock ----------------------------------------->
+	<!------------JavaScript Chicago Clock ----------------------------------------->
 	<script>
 			// Comment out the PHP line you will actually use for demostration purposes
 		 var d = new Date(<?php echo time() * 1000 ?>);
@@ -98,70 +98,63 @@
 
 </head>
 <body>
-	<header>
-	<div class="header-wrapper">
-		<div class="container-fluid date">
-			<!--<p id="datetime"></p>-->
-			<span>Chicago<div id="clock">&nbsp;</div></span>
-		</div>
-	</div>
-	
-		<div class="container-fluid logo login-signup">
-			<!--<div class="row">
-				<div class="col-sm-12 col-md-5 logo">-->
-				<div id="logo-phone">
-					<a href="#">
-						<img src="img/logo.jpg">
-					</a>
-					<p>Puerto Rican Police Association</p>
-					<p>773.888.7176</p>
-				</div>
-					<!--<?php
-						if (isset($_SESSION['userId'])) {
-							echo '<form action="includes/logout.inc.php" method="post">
-								<button type="submit" name="logout-submit">Logout</button>
-								</form>';
-							} else {
-							echo '<form action="includes/login.inc.php" method="post">
-								<input type="text" name="mailuid" placeholder="Username/Email...">
-								<input type="password" name="pwd" placeholder="Password...">
-								<button type="submit" name="login-submit">Login</button>
-								</form>
-								';
-							}
-						?>
-				</div>-->
-				<!--<div class="col-sm-12 col-md-7">-->
-					<div id="flag">
-						<img src="img/flag3kings.jpg">
-					</div>
-				<!--</div>
-			</div>-->
-		</div>
 
-
-
-		<div class="container-fluid p-0">
-			<div class="row">
-				<div class="col-sm-12">
-					<nav>
-						<ul>
-							<li><a href="index.php">Home</a></li>
-							<li><a href="upcoming.php">Upcoming Events</a></li>
-							<li><a href="news.php">News</a></li>
-							<li><a href="join.php">Join PRPA</a></li>
-							<li><a href="board.php">Board Members</a></li>
-							<li><a href="partnerships.php">Partnerships</a></li>
-							<li><a href="about.php">About</a></li>
-							<li><a href="gallery.php">Gallery</a></li>
-							<li><a href="contact.php">Contact</a></li>
-							<li><a href="donate.php">Donate</a></li>
-						</ul>
-					</nav>
-				</div>
+		<div class="header-wrapper">
+		
+				<!--<p id="datetime"></p>-->
+			<div id="chicago-clock">
+				<span>Chicago </span><div id="clock">&nbsp;</div>
 			</div>
+		
+			<nav>
+				<ul>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="upcoming.php">Upcoming Events</a></li>
+					<li><a href="news.php">News</a></li>
+					<li><a href="join.php">Join PRPA</a></li>
+					<li><a href="board.php">Board Members</a></li>
+					<li><a href="partnerships.php">Partnerships</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="gallery.php">Gallery</a></li>
+					<li><a href="contact.php">Contact</a></li>
+					<li><a href="donate.php">Donate</a></li>
+				</ul>
+			</nav>
 		</div>
-	</header>
+
+			<div class="logo login-signup">
+				<div id="capture"></div>
+				<!--<div class="row">
+					<div class="col-sm-12 col-md-5 logo">-->
+					<!--<div id="logo-phone">
+						<a href="#">
+							<img src="img/logo.jpg">
+						</a>
+						<p id="prpa">Puerto Rican Police Association</p>
+						<p id="phone">773.888.7176</p>
+					</div>-->
+						<!--<?php
+							if (isset($_SESSION['userId'])) {
+								echo '<form action="includes/logout.inc.php" method="post">
+									<button type="submit" name="logout-submit">Logout</button>
+									</form>';
+								} else {
+								echo '<form action="includes/login.inc.php" method="post">
+									<input type="text" name="mailuid" placeholder="Username/Email...">
+									<input type="password" name="pwd" placeholder="Password...">
+									<button type="submit" name="login-submit">Login</button>
+									</form>
+									';
+								}
+							?>
+					</div>-->
+					<!--<div class="col-sm-12 col-md-7">-->
+						<!--<div id="flag">
+							<img src="img/flag3kings.jpg">
+						</div>-->
+					<!--</div>
+				</div>-->
+			</div>			
 
 	<!--<script>
 		var date = new Date();
