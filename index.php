@@ -1,9 +1,8 @@
 <?php
 	require "header.php";
 ?>
-	<div class="wrapper">
+	<div class="image-slider-wrapper">
 		<div>
-			<h2 id="caption"></h2>
 			<img src="img/bg1.jpg" id="picture" alt="">
 		</div>
 		
@@ -24,6 +23,63 @@
 		</div>
 						
 	</div>
+
+	<div id="events-news-wrapper">
+		
+			<div>
+				<img id="news-photo" src="img/newsphoto.jpg">
+			</div>
+			
+			<div id="news">
+			<h3>News</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<h3>News</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div id="events">
+			<h3>Upcomming Events</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<h3>Upcomming Events</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+	<div  id="badge-bg">
+		<div id="badge-bg-text" >
+			<h2>Care a bit</h2>
+			<h1>Change a lot</h1>
+		</div>
+	</div>
+
+	<div >
+		<h2>Our Mission</h2>
+		<p>
+		The mission of the Puerto Rican Police Association (PRPA) is to bring together law enforcement officers of Hispanic descent in a united effort to foster positive relationships with the communities we serve. We will demonstrate a higher degree of professionalism and integrity in all of our interactions as we strive to remove any obstacles to this partnership. In addition, we are dedicated to supporting, and initiating programs and policies that show our commitment to being of service to those communities.
+		</p>
+	</div>
+
 	
 		<!--<div class="container-fluid p-0 " >
 			<div class="row">
